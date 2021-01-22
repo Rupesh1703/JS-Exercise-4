@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MYStopwatch</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex align-items-center">
+    <div class="container">
+        <div class="dt d-flex align-items-center justify-content-between text-center">
+            <div class="t-container">
+                <button type="button" class="btn btn-light" id="time" >Light</button>
+            </div>
+            <div class="d-container">
+                <button type="button" class="btn btn-light" id="date">Light</button>
+            </div>
+        </div>
+        <div class="stopwatch text-center">
+            <div id="timer"></div>
+            <div class="buttons">
+                <button type="button" class="btn btn-success" id="start">Start</button>
+                <button type="button" class="btn btn-danger" id="stop">Stop</button>
+                <button type="button" class="btn btn-warning" id="resume">Resume</button>
+                <button type="button" class="btn btn-info" id="reset">Reset</button> 
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
